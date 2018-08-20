@@ -15,6 +15,6 @@ def translation():
                         "typoResult":"false"})
         html = json.loads(r.content)
         print("翻译后的内容为："+html['translateResult'][0][0]["tgt"])
-        print("*"*40)
+        print("*"*45)
 while 1==1 :
     translation()
